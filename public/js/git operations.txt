@@ -1,0 +1,300 @@
+    version, view, whoami
+
+npm <cmd> -h     quick help on <cmd>
+npm -l           display full usage info
+npm faq          commonly asked questions
+npm help <term>  search for help on <term>
+npm help npm     involved overview
+
+Specify configs in the ini-formatted file:
+    C:\Users\Clyde\.npmrc
+or on the command line via: npm <command> --key value
+Config info can be viewed via: npm help config
+
+npm@1.4.14 C:\Program Files\nodejs\node_modules\npm
+
+C:\Windows\system32>mongo
+MongoDB shell version: 2.2.7
+connecting to: test
+Thu Jan 08 11:36:27 Error: couldn't connect to server 127.0.0.1:27017 src/mongo/
+shell/mongo.js:91
+exception: connect failed
+
+C:\Windows\system32>npm
+
+Usage: npm <command>
+
+where <command> is one of:
+    add-user, adduser, apihelp, author, bin, bugs, c, cache,
+    completion, config, ddp, dedupe, deprecate, docs, edit,
+    explore, faq, find, find-dupes, get, help, help-search,
+    home, i, info, init, install, isntall, issues, la, link,
+    list, ll, ln, login, ls, outdated, owner, pack, prefix,
+    prune, publish, r, rb, rebuild, remove, repo, restart, rm,
+    root, run-script, s, se, search, set, show, shrinkwrap,
+    star, stars, start, stop, submodule, t, tag, test, tst, un,
+    uninstall, unlink, unpublish, unstar, up, update, v,
+    version, view, whoami
+
+npm <cmd> -h     quick help on <cmd>
+npm -l           display full usage info
+npm faq          commonly asked questions
+npm help <term>  search for help on <term>
+npm help npm     involved overview
+
+Specify configs in the ini-formatted file:
+    C:\Users\Clyde\.npmrc
+or on the command line via: npm <command> --key value
+Config info can be viewed via: npm help config
+
+npm@1.4.14 C:\Program Files\nodejs\node_modules\npm
+
+C:\Windows\system32> git
+usage: git [--version] [--help] [-C <path>] [-c name=value]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p|--paginate|--no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+The most commonly used git commands are:
+   add        Add file contents to the index
+   bisect     Find by binary search the change that introduced a bug
+   branch     List, create, or delete branches
+   checkout   Checkout a branch or paths to the working tree
+   clone      Clone a repository into a new directory
+   commit     Record changes to the repository
+   diff       Show changes between commits, commit and working tree, etc
+   fetch      Download objects and refs from another repository
+   grep       Print lines matching a pattern
+   init       Create an empty Git repository or reinitialize an existing one
+   log        Show commit logs
+   merge      Join two or more development histories together
+   mv         Move or rename a file, a directory, or a symlink
+   pull       Fetch from and integrate with another repository or a local branch
+
+   push       Update remote refs along with associated objects
+   rebase     Forward-port local commits to the updated upstream head
+   reset      Reset current HEAD to the specified state
+   rm         Remove files from the working tree and from the index
+   show       Show various types of objects
+   status     Show the working tree status
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+'git help -a' and 'git help -g' lists available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+
+C:\Windows\system32>cd/
+
+C:\>cd projects
+The system cannot find the path specified.
+
+C:\>cd project
+
+C:\Project>git clone https://github.com/tsnevgi/resumeproject.git
+Cloning into 'resumeproject'...
+remote: Counting objects: 39, done.
+remote: Compressing objects: 100% (34/34), done.
+remote: Total 39 (delta 5), reused 39 (delta 5)
+Unpacking objects: 100% (39/39), done.
+Checking connectivity... done.
+
+C:\Project>git clone https://github.com/tsnevgi/resumeproject.git
+fatal: destination path 'resumeproject' already exists and is not an empty direc
+tory.
+
+C:\Project>git clone 01da61c507f95a58106201bf72e783e838baae3d
+fatal: repository '01da61c507f95a58106201bf72e783e838baae3d' does not exist
+
+C:\Project>git pull origin master
+fatal: Not a git repository (or any of the parent directories): .git
+
+C:\Project>cd "resumeproject"
+
+C:\Project\resumeproject>git pull origin master
+remote: Counting objects: 3, done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 1), reused 3 (delta 1)
+Unpacking objects: 100% (3/3), done.
+From https://github.com/tsnevgi/resumeproject
+ * branch            master     -> FETCH_HEAD
+   ab3b062..01da61c  master     -> origin/master
+Updating ab3b062..01da61c
+Fast-forward
+ down.jpg | Bin 0 -> 7178 bytes
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 down.jpg
+
+C:\Project\resumeproject>git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        img005.gif
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Project\resumeproject>git add ing005.gif
+fatal: pathspec 'ing005.gif' did not match any files
+
+C:\Project\resumeproject>git add img005.gif
+
+C:\Project\resumeproject>git staus
+git: 'staus' is not a git command. See 'git --help'.
+
+Did you mean this?
+        status
+
+C:\Project\resumeproject>git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   img005.gif
+
+
+C:\Project\resumeproject>git commit
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Clyde@Laptop.(none)')
+
+C:\Project\resumeproject>git config --global user.email "dclyde14@gmail.com"
+
+C:\Project\resumeproject>  git config --global user.name "cjd9"
+
+C:\Project\resumeproject>git commit
+[master 2844176] cjd commit1
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 img005.gif
+
+C:\Project\resumeproject>git push origin master
+Username for 'https://github.com': cjd9
+Password for 'https://cjd9@github.com':
+Counting objects: 4, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 13.79 KiB | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+To https://github.com/tsnevgi/resumeproject.git
+   01da61c..2844176  master -> master
+
+C:\Project\resumeproject>git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   mycss.css
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Project\resumeproject>git stash
+Saved working directory and index state WIP on master: 2844176 cjd commit1
+HEAD is now at 2844176 cjd commit1
+
+C:\Project\resumeproject>git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+nothing to commit, working directory clean
+
+C:\Project\resumeproject>git pull origin master
+From https://github.com/tsnevgi/resumeproject
+ * branch            master     -> FETCH_HEAD
+Already up-to-date.
+
+C:\Project\resumeproject>git stash
+No local changes to save
+
+C:\Project\resumeproject>git stassh apply
+git: 'stassh' is not a git command. See 'git --help'.
+
+Did you mean this?
+        stash
+
+C:\Project\resumeproject>git stash apply
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   mycss.css
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Project\resumeproject>git add mycss.css
+
+C:\Project\resumeproject>git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   mycss.css
+
+
+C:\Project\resumeproject>git commit
+[master f8c45ca] modfied mycss.css
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+
+C:\Project\resumeproject>git push origin master
+Username for 'https://github.com': cjd9
+Password for 'https://cjd9@github.com':
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 322 bytes | 0 bytes/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+To https://github.com/tsnevgi/resumeproject.git
+   2844176..f8c45ca  master -> master
+
+C:\Project\resumeproject>git log
+commit f8c45ca2c3dc0efd64fced5bf30c4e3c08c1abe3
+Author: cjd9 <dclyde14@gmail.com>
+Date:   Thu Jan 8 16:04:47 2015 +0530
+
+    modfied mycss.css
+
+commit 28441763e83fec64824c42c6ec0ab18bbe6a2e0a
+Author: cjd9 <dclyde14@gmail.com>
+Date:   Thu Jan 8 15:24:27 2015 +0530
+
+    cjd commit1
+
+commit 01da61c507f95a58106201bf72e783e838baae3d
+Author: aktilve <akshaytilve2@gmail.com>
+Date:   Thu Jan 8 15:11:47 2015 +0530
+
+    akcommit1
+
+commit ab3b0626ff0964b90703a14effc187eb4df45aab
+Author: Tejas Nevgi <tsnevgi@live.com>
+Date:   Thu Jan 8 12:51:21 2015 +0530
+
+    my second commit
+
+commit 654ca2f61453e888de0f0d369f44b3886db5d70a
+Author: Tejas Nevgi <tsnevgi@live.com>
+Date:   Thu Jan 8 12:37:46 2015 +0530
+
+    my first commit
+
+C:\Project\resumeproject>

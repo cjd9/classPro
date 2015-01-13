@@ -1,0 +1,22 @@
+{
+  "name": "ClassPro",
+  "version": "0.1.0",
+  "description": "0.1.0",
+  "main": "server.js",
+  "scripts": {
+    "test": ""
+  },
+  "keywords": [
+    "classpro",
+    "student",
+    "database",
+    "blog"
+  ],
+  "author": "Clyde Joseph Dsouza <dclyde14@gmiail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.10.1",
+    "express": "~4.10.6",
+    "hbs": "^2.8.0"
+  }
+}
